@@ -1,0 +1,27 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f6f7c4;
+  height: 75px;
+}
+
+.container {
+  margin-left: 2rem;
+  display: flex;
+}
+
+.back-container {
+  display: flex;
+  align-items: center;
+}
+
+.back-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5em;
+}
+
+.back-text {
+  text-align: center;
+}
