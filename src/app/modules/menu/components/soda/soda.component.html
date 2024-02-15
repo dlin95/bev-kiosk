@@ -1,0 +1,12 @@
+<ul>
+  <li *ngFor="let drink of drinks">
+    <a routerLink="/customization">
+      <img src="{{ drink.imageUrl }}" alt="" />
+      <div class="content">
+        <div class="name">{{ drink.name }}</div>
+        <div class="price">{{ drink.price | currency }}</div>
+        <span class="popular {{ drink.popular ? '' : 'not' }}"> ★ popular! </span>
+      </div>
+    </a>
+  </li>
+</ul>

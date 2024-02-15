@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="let drinkCategory of drinkCategories">
+    <a routerLink="/drink/{{ drinkCategory.name }}">
+      <img src="{{ drinkCategory.imageUrl }}" alt="" />
+      <div class="content">
+        <div class="name">{{ drinkCategory.name }}</div>
+      </div>
+    </a>
+  </li>
+</ul>
