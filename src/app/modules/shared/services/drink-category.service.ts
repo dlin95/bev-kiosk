@@ -11,6 +11,8 @@ export class DrinkCategoryService {
     return this.getAll().find((category) => category.id === id)!;
   }
 
+  // TODO: MOVE TO DB AS JSON //
+
   getAll(): DrinkCateogry[] {
     return [
       {

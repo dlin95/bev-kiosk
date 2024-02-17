@@ -1,0 +1,14 @@
+[
+  {
+    "name": "small",
+    "price": 0.0
+  },
+  {
+    "name": "medium",
+    "price": 0.5
+  },
+  {
+    "name": "large",
+    "price": 1.0
+  }
+]

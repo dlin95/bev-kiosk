@@ -11,6 +11,8 @@ export class DrinkService {
     return this.getAll().filter((drink) => drink.category === category);
   }
 
+  // TODO: MOVE TO DB AS JSON //
+
   getAll(): Drink[] {
     return [
       {
